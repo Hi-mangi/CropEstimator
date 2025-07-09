@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 # Function to load the data
 @st.cache_data
 def load_data():
-    file_path = 'crop_yield.csv'  # Update this path as needed
+    file_path = r'CropPrediction-main/crop_yield.csv'  # Update this path as needed
     return pd.read_csv(file_path)
 
 # Function to plot the heatmap
