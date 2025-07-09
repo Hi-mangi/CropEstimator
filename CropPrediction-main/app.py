@@ -103,7 +103,7 @@ def forecast_production_rf(data, crop, state):
 
 # Main function for the Streamlit app
 def main():
-    st.title("CropCast: Harvesting Tomorrow's Yields Today")
+    st.title("CropEstimator: Harvesting Tomorrow's Yields Today")
     
     data = load_data()
     st.subheader("Dataset Overview")
